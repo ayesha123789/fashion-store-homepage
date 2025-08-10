@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashionista - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Fashionista</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Step Into Style</h1>
+            <p>Discover the latest trends and elevate your look.</p>
+            <button onclick="shopNow()">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <input type="text" id="searchBar" placeholder="Search for products...">
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>✨ Featured Collection ✨</h2>
+        <div class="product-list" id="productList">
+            <div class="product" data-name="Summer Floral Dress">
+                <img src="https://images.pexels.com/photos/994517/pexels-photo-994517.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dress">
+                <h3>Summer Floral Dress</h3>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-name="Classic Leather Jacket">
+                <img src="https://images.pexels.com/photos/5698897/pexels-photo-5698897.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jacket">
+                <h3>Classic Leather Jacket</h3>
+                <p>$89.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-name="White Sneakers">
+                <img src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Shoes">
+                <h3>White Sneakers</h3>
+                <p>$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-name="Elegant Handbag">
+                <img src="https://images.pexels.com/photos/1032112/pexels-photo-1032112.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Handbag">
+                <h3>Elegant Handbag</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fashionista | Designed with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
